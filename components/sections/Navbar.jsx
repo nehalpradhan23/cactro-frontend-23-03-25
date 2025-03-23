@@ -40,7 +40,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="bg-[#0064a0] text-white py-6 -mx-8 px-8 rounded-full flex justify-between items-center">
+      <div className="bg-[#0064a0] text-lg text-white py-6 -mx-8 px-8 rounded-full flex justify-between items-center">
         <div className="flex items-center gap-1">
           <span>Slack is your digital HQ.</span>
           Meet the new features keeping teams connected in a work-from-anywhere
@@ -48,7 +48,7 @@ function Navbar() {
           <span className="flex items-center gap-2 font-semibold underline ml-2">
             Let's go
           </span>
-          <FaArrowRightLong />
+          <FaArrowRightLong className="mt-1 ml-1" />
         </div>
         <IoMdClose className="text-3xl" />
       </div>
