@@ -13,10 +13,14 @@ const logos = [
 function Footer() {
   return (
     <div className="mt-[100px]">
-      <div className="flex w-full justify-between">
+      <div className="flex w-full justify-between items-center">
         {logos?.map((item, index) => (
-          <img src={item} className="w-fit h-[70px]" alt="" />
-          // <Image src={item} alt="" width={150} height={100} key={index} />
+          <div
+            className="h-[100px] w-[150px] flex items-center justify-center object-fill"
+            key={index}
+          >
+            <img src={item} className="h-fit" alt="" />
+          </div>
         ))}
       </div>
       {/* ----------- */}
